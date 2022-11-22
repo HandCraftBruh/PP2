@@ -9,7 +9,7 @@ for i in range(n):
     D.append(int(input()))
 print (D)
 
-summ=0;
+summ=0
 for i in range(n):
     if i%2==0:
         summ=summ+D[i]
