@@ -3,7 +3,7 @@ import random
 #   Задание 1
 
 A=[]
-f_Input=open('Kustov_Um-222_vvod.txt', 'r')
+f_Input=open('Kustov_Um-222_vvod.txt', 'r', encoding='utf-8-sig')
 
 for str in f_Input:
     A.append([int(n) for n in str.split()])
@@ -11,7 +11,7 @@ for row in A:
     print(*map('{:2d}'.format, row))
 print()
 
-f_Output=open('Kustov_Um-222_vivod.txt','w+')
+f_Output=open('Kustov_Um-222_vivod.txt','w+', encoding='utf-8-sig')
 print ('Вывод:')
 f_Output.write('Вывод:\n')
 
